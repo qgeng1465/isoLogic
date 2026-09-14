@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>知源 · isoLogic ｜ 演示视频</title>
+<style>
+  :root { --ink:#1c2b3a; --dim:#66788a; --line:#dbe5ee; --bg:#f4f7fa; --card:#fff; --accent:#2f6fb0; }
+  * { box-sizing:border-box; }
+  body { margin:0; padding:32px 16px 56px; background:var(--bg); color:var(--ink);
+         font:15px/1.7 -apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans CJK SC","PingFang SC","Microsoft YaHei",sans-serif; }
+  .wrap { max-width:760px; margin:0 auto; }
+  h1 { font-size:24px; margin:0 0 6px; letter-spacing:.3px; }
+  .sub { color:var(--dim); margin:0 0 26px; font-size:14px; }
+  .stage { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:18px;
+           box-shadow:0 1px 2px rgba(28,43,58,.04); }
+  video { display:block; width:100%; max-width:392px; margin:0 auto; border-radius:10px; background:#0d1520; }
+  .meta { display:flex; flex-wrap:wrap; gap:8px 18px; justify-content:center; margin:16px 0 0;
+          color:var(--dim); font-size:13px; }
+  h2 { font-size:15px; margin:34px 0 10px; }
+  .steps { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 20px; margin:0; }
+  .steps li { margin:5px 0; }
+  /* 标语：把公开地址摆在走查清单正上方，方便直接照抄转发。 */
+  .tagline { margin:0 0 12px; padding:10px 14px; border-radius:10px; font-size:13.5px;
+             background:#eaf2f9; border:1px solid #cfe0ee; color:#31556f; word-break:break-all; }
+  .tagline a { color:var(--accent); font-weight:600; text-decoration:none; }
+  .tagline a:hover { text-decoration:underline; }
+  .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
+  a.btn { display:inline-block; padding:9px 16px; border-radius:9px; text-decoration:none; font-size:14px;
+          border:1px solid var(--line); background:var(--card); color:var(--accent); }
+  a.btn.primary { background:var(--accent); border-color:var(--accent); color:#fff; }
+  footer { margin-top:38px; color:var(--dim); font-size:12.5px; border-top:1px solid var(--line); padding-top:14px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>知源 · 跨学科知识同源翻译机</h1>
+  <p class="sub">用你已经掌握的知识，去理解一个陌生的领域。下面是线上站点的完整走查录像。</p>
+
+  <div class="stage">
+    <video controls preload="metadata" playsinline poster="/poster.jpg">
+      <source src="/demo.mp4" type="video/mp4">
+      你的浏览器不支持内嵌播放，可直接<a href="/demo.mp4">下载这段视频</a>。
+    </video>
+    <div class="meta">
+      <span>2 分 10 秒</span><span>860×1864 竖屏</span><span>30fps</span><span>无音轨</span>
+    </div>
+  </div>
+
+  <h2>这条片子走了什么</h2>
+  <p class="tagline">本页地址（可直接分享）：<a href="https://qgeng1465.github.io/isoLogic/">https://qgeng1465.github.io/isoLogic/</a></p>
+  <ol class="steps">
+    <li><b>读懂它</b> —— 粘一段免疫负反馈的文字，抽概念、拆因果，存为卡片</li>
+    <li><b>跨学科理解</b> —— 换成排队系统，看它跨到生态学、经济学里找结构同源</li>
+    <li><b>术语对照</b> —— 两侧术语逐一对应，每条给出依据与局限</li>
+    <li><b>知乎搜索</b> —— 官方接口搜真实讨论，勾选后整合成一篇学习笔记</li>
+    <li><b>看山桌宠 + 复习</b> —— 能量奖励，进遗忘曲线复习</li>
+  </ol>
+  <p class="sub" style="margin-top:12px">两处真调大模型（读懂它、跨学科理解）在成片里是 8 倍速，其余原速；没有预置动画。</p>
+
+  <h2>片子没走到的两处</h2>
+  <p class="sub" style="margin-top:0">这段录像是主线五个动作，下面两处只在「看山」里，片子没录到，但线上点得开。</p>
+  <ol class="steps">
+    <li><b>笔记复盘（出题式）</b> —— 作为复盘导师读你自己的笔记，<b>一次只问一个问题</b>，等你答完再追问；
+      适合<b>模拟面试</b>（「这个方案为什么这么设计」「流量翻倍怎么办」「失败边界在哪」）和
+      <b>期末复习</b>（选中一章笔记，逐题考概念、公式与推导）。题目出自你自己的材料，不是通用题库；
+      课程 PDF、论文、截图可作为笔记附件一起作为出题依据。每轮对话与自动小结都会存档：覆盖了什么、
+      哪里答得准、哪里薄弱、下一步该看什么。</li>
+    <li><b>碎片时间复习</b> —— 按艾宾浩斯曲线按天排期（1/2/4/7/15 天，之后 30/90/180/365 天），
+      当天该背的自动带到眼前，不用自己记「哪张卡什么时候看」。<b>通勤、吃饭、排队、课间</b>打开看几张：
+      数学公式、专有名词解释、概念定义都是这个形态。错过节点会留「已逾期」，随时补做。</li>
+  </ol>
+
+  <h2>链接</h2>
+  <div class="links">
+    <a class="btn primary" href="https://logic-coloc-302528-11-1473737765.sh.run.tcloudbase.com/">线上体验（免注册）</a>
+    <a class="btn" href="https://github.com/Scarlett-yzy/isoLogic/pull/1">代码与说明（PR）</a>
+    <a class="btn" href="/raw-demo-recording.webm">原始无加速素材 (webm, 4 分 35 秒)</a>
+  </div>
+
+  <p class="sub" style="margin-top:14px">点「线上体验」首次会看到腾讯云测试域名的访问提示页，等倒计时结束点「确定访问」即可进入（视频里那几秒已经剪掉了）。</p>
+
+  <footer>
+    演示录制自上述线上链接本身，未经剪辑替换画面；页面由 <a href="https://github.com/qgeng1465">qgeng1465</a> 发布。
+  </footer>
+</div>
+</body>
+</html>
