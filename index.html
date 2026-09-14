@@ -20,6 +20,11 @@
   h2 { font-size:15px; margin:34px 0 10px; }
   .steps { background:var(--card); border:1px solid var(--line); border-radius:14px; padding:16px 20px; margin:0; }
   .steps li { margin:5px 0; }
+  /* 标语：把公开地址摆在走查清单正上方，方便直接照抄转发。 */
+  .tagline { margin:0 0 12px; padding:10px 14px; border-radius:10px; font-size:13.5px;
+             background:#eaf2f9; border:1px solid #cfe0ee; color:#31556f; word-break:break-all; }
+  .tagline a { color:var(--accent); font-weight:600; text-decoration:none; }
+  .tagline a:hover { text-decoration:underline; }
   .links { display:flex; flex-wrap:wrap; gap:10px; margin-top:14px; }
   a.btn { display:inline-block; padding:9px 16px; border-radius:9px; text-decoration:none; font-size:14px;
           border:1px solid var(--line); background:var(--card); color:var(--accent); }
@@ -43,6 +48,7 @@
   </div>
 
   <h2>这条片子走了什么</h2>
+  <p class="tagline">本页地址（可直接分享）：<a href="https://qgeng1465.github.io/isoLogic/">https://qgeng1465.github.io/isoLogic/</a></p>
   <ol class="steps">
     <li><b>读懂它</b> —— 粘一段免疫负反馈的文字，抽概念、拆因果，存为卡片</li>
     <li><b>跨学科理解</b> —— 换成排队系统，看它跨到生态学、经济学里找结构同源</li>
@@ -51,6 +57,18 @@
     <li><b>看山桌宠 + 复习</b> —— 能量奖励，进遗忘曲线复习</li>
   </ol>
   <p class="sub" style="margin-top:12px">两处真调大模型（读懂它、跨学科理解）在成片里是 8 倍速，其余原速；没有预置动画。</p>
+
+  <h2>片子没走到的两处</h2>
+  <p class="sub" style="margin-top:0">这段录像是主线五个动作，下面两处只在「看山」里，片子没录到，但线上点得开。</p>
+  <ol class="steps">
+    <li><b>笔记复盘（出题式）</b> —— 作为复盘导师读你自己的笔记，<b>一次只问一个问题</b>，等你答完再追问；
+      适合<b>模拟面试</b>（「这个方案为什么这么设计」「流量翻倍怎么办」「失败边界在哪」）和
+      <b>期末复习</b>（选中一章笔记，逐题考概念、公式与推导）。题目出自你自己的材料，不是通用题库；
+      课程 PDF、论文、截图可作为笔记附件一起作为出题依据。每轮对话与自动小结都会存档，可回看对比。</li>
+    <li><b>碎片时间复习</b> —— 按艾宾浩斯曲线按天排期（1/2/4/7/15 天，之后 30/90/180/365 天），
+      当天该背的自动带到眼前，不用自己记「哪张卡什么时候看」。<b>通勤、吃饭、排队、课间</b>打开看几张：
+      数学公式、专有名词解释、概念定义都是这个形态。错过节点会留「已逾期」，随时补做。</li>
+  </ol>
 
   <h2>链接</h2>
   <div class="links">
